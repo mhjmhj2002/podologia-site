@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+   <channel>
+    <atom:link href="http://podologia-labarca.webnode.com.br/rss/novidades.xml" rel="self" type="application/rss+xml" />
+      <title><![CDATA[Novidades - podologialabarca.com.br]]></title>
+      <link>http://podologia-labarca.webnode.com.br</link>
+      <language>pt</language>
+      <pubDate>Sun, 04 Sep 2011 15:53:00 +0200</pubDate>
+      <lastBuildDate>Sun, 04 Sep 2011 15:53:00 +0200</lastBuildDate>
+      <category><![CDATA[Novidades]]></category>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>Rubicus v2.0</generator>
+      <managingEditor><![CDATA[podologialabarca@gmail.com (podologialabarca@gmail.com)]]></managingEditor>
+      <webMaster><![CDATA[podologialabarca@gmail.com (podologialabarca@gmail.com)]]></webMaster>
+      <item>
+         <title><![CDATA[Temos Palmilhas Localizadas para Joanetes,  esporão, Verruga Plantar(cravos) e outros]]></title>
+         <link>http://www.podologialabarca.com.br/news/temos%20palmilhas%20localizadas%20para%20joanetes%2c%20%20espor%c3%a3o%2c%20verruga%20plantar%28cravos%29%20e%20outros/</link>
+         <description><![CDATA[Devido à enorme procura, estamos vendendo palmilhas localizadas com adesivo para resolver problemas de joanetes, esporão, verrugas plantares(cravos), calos acima dos dedos e outros tipos de afeções. Estas palmilhas podem ser colocadas tanto no calçado como na própria pele. Elas evitam a sensação de dor o que causa um alivio imediato na zona afetada, também pelo fato de isolar esta área, através do uso continuo, elas irão paulatinamante acabar com o problema.
+&#160;
+&#160;
+&#160;]]></description>
+         <pubDate>Sun, 04 Sep 2011 15:53:00 +0200</pubDate>
+         <guid isPermaLink="true">http://www.podologialabarca.com.br/news/temos%20palmilhas%20localizadas%20para%20joanetes%2c%20%20espor%c3%a3o%2c%20verruga%20plantar%28cravos%29%20e%20outros/</guid>
+         <category>Novidades</category>
+      </item>
+      <item>
+         <title><![CDATA[Site lançado]]></title>
+         <link>http://www.podologialabarca.com.br/news/site%20lan%c3%a7ado/</link>
+         <description><![CDATA[Nosso novo site foi lançado hoje.
+
+Nessa janela de divulgação que é a internet, mostraremos os benefícios que o tratamento podológico trás para a saúde dos seus pés.&#160;
+]]></description>
+         <pubDate>Fri, 23 Apr 2010 20:56:00 +0200</pubDate>
+         <guid isPermaLink="true">http://www.podologialabarca.com.br/news/site%20lan%c3%a7ado/</guid>
+         <category>Novidades</category>
+      </item>
+   </channel>
+</rss>

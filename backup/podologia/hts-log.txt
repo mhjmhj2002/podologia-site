@@ -1,0 +1,63 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 01 Aug 2020 15:12:06 at http://www.podologialabarca.com.br/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.podologialabarca.com.br/ -O1 "C:\Users\mhjmh\Documents\Manuel\Desenvolvimento\podologia" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:12:30	Error: 	"Not Found" (404) at link www.podologialabarca.com.br/wnd_header.set/ (from www.podologialabarca.com.br/)
+15:12:37	Error: 	"Error when decompressing" (-1) at link www.podologialabarca.com.br/tags/esporão/ (from www.podologialabarca.com.br/)
+15:12:37	Error: 	"Error when decompressing" (-1) at link www.podologialabarca.com.br/tags/pé/ (from www.podologialabarca.com.br/)
+15:12:37	Error: 	"Error when decompressing" (-1) at link www.podologialabarca.com.br/news/temos palmilhas localizadas para joanetes%2c  esporão%2c verruga plantar(cravos) e outros/ (from www.podologialabarca.com.br/)
+15:12:37	Error: 	"Error when decompressing" (-1) at link www.podologialabarca.com.br/news/site lançado/ (from www.podologialabarca.com.br/)
+15:12:54	Warning: 	Moved Permanently for www.podologialabarca.com.br/home/
+15:12:54	Warning: 	File has moved from www.podologialabarca.com.br/home/ to http://www.podologialabarca.com.br
+15:13:34	Error: 	"Not Found" (404) at link files.podologialabarca.com.br/200000012-f2c52f3bfa/unha_encravada.jpg (from www.podologialabarca.com.br/tratamentos/unha-encravada/)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000104-607f662734-public/DSC00003.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000105-680dd6a01b-public/DSC00005.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000106-8369384d1e-public/DSC00007.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000107-e0697e1642-public/DSC00009.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000108-25cc127c00-public/DSC00010.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000109-8e90e8f8a0-public/DSC00011.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000110-875f789549-public/DSC00012.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000111-84a008639b-public/DSC00013.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000112-157b916746-public/DSC00014.jpg/ not scanned (follow robots meta tag)
+15:13:34	Warning: 	Link www.podologialabarca.com.br/images/200000113-47b2249a61-public/DSC00017.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Moved Permanently for www.podologialabarca.com.br/discussion/
+15:13:40	Warning: 	File has moved from www.podologialabarca.com.br/discussion/ to /
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000037-96360972fe-public/encravamento.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000038-bcf0bd04b3-public/encravamento2.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000039-3a2da3b27c-public/micose.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000040-bf173c0115-public/encravamento3.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000041-32901338a0-public/micose5.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000042-3c6993d63f-public/micose6.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000043-96c6c97c0e-public/micose7.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000044-10a9611a34-public/ortese1.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000045-0090e018af-public/ortese2.jpg/ not scanned (follow robots meta tag)
+15:13:40	Warning: 	Link www.podologialabarca.com.br/images/200000046-0f52010471-public/micose8.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000114-1b38a1d2c8-public/DSC00020.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000115-38c5139bf8-public/DSC00021.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000116-ad766ae6f6-public/DSC00023.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000117-1b6371d56e-public/DSC00025.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000118-85bd287494-public/DSC00033.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000047-861d98717d-public/micose9.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000048-c633fc715f-public/rachadura6.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000049-84c1885bba-public/micose10.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000050-0bc2a0cbc5-public/encravamento_para_ortese.gif/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000051-d16f5d2158-public/encravamento6.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000052-887e58978f-public/rachadura7.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000053-c9765ca707-public/encravamento5.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000054-eea93efa31-public/encravamento4.JPG/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000055-1dc3e1ebe0-public/encravamento7.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000056-d30eed4093-public/rachadura_2.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000057-df74be06e8-public/onicofose_e_onicomicose.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000058-0567606611-public/calos.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000059-df432e04a6-public/rachadura_3.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000060-9423c951e0-public/rachadura_4.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000061-8d63c8e63b-public/micose1.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000062-81c0682bb5-public/rachadura5.jpg/ not scanned (follow robots meta tag)
+15:13:54	Warning: 	Link www.podologialabarca.com.br/images/200000063-92e4993de9-public/micose2.jpg/ not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 49 seconds : 275 links scanned, 266 files written (3976240 bytes overall) [2385291 bytes received at 21883 bytes/sec], 2603880 bytes transferred using HTTP compression in 139 files, ratio 31%, 6.9 requests per connection
+(6 errors, 46 warnings, 0 messages)

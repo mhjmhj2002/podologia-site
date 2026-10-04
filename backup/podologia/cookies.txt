@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+podologialabarca.com.br	TRUE	/	FALSE	1999999999	PHPSESSID	81d116a0a75b68e6c6ae57a18e7ec152
+

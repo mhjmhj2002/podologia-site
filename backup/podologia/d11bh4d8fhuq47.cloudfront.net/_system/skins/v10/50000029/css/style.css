@@ -1,0 +1,1650 @@
+html, body, h1, h2, h3, h4, p, ul, ol, li, blockquote, table, dl, dt, dd, hr {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, p, ul, ol, li, blockquote, table, dl, dt, dd, hr {
+	border: 0;
+}
+body, input, button, select, textarea {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 1.4;
+	font-size: 0.8em;
+	color: #535353;
+	background: #e2e5e8 url("../img/body.png") repeat   center top;
+}
+h1 {
+	margin-bottom: 8px;
+	font-size: 140%;
+	font-weight: normal;
+	color: #4b7fff;
+}
+h2 {
+	margin-bottom: 8px;
+	font-size: 140%;
+	font-weight: normal;
+	color: #4b7fff;
+}
+h3 {
+	margin-bottom: 4px;
+	font-size: 110%;
+	color: #ff6600;
+}
+h4 {
+	margin-bottom: 4px;
+	font-size: 105%;
+	color: #333333;
+}
+h5 {
+	margin-bottom: 4px;
+	font-size: 100%;
+	color: #666666;
+}
+p {
+	margin-bottom: 1em;
+}
+ul {
+	margin-bottom: 1em;
+}
+ul ul {
+	margin: 0;
+}
+ul li {
+	margin-left: 20px;
+	padding-left: 15px;
+	list-style: none;
+	background: url("../img/li.png") no-repeat left 7px;
+}
+ol {
+	margin-bottom: 1em;
+}
+ol ol {
+	margin: 0;
+}
+ol li {
+	margin-left: 20px;
+}
+blockquote {
+	margin-bottom: 1em;
+	padding: 0.5em 1em;
+	background: #f8f8fa;
+	border: 1px solid #c8cbcf;
+}
+table {
+	margin-bottom: 1em;
+	font-size: 85%;
+	border-collapse: collapse;
+}
+table.modernTable td {
+	padding: 5px 15px;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #c8cbcf;
+}
+table.modernTable thead td {
+	background: #f8f8fa;
+}
+dl {
+	margin-bottom: 1em;
+}
+dt {
+}
+dd {
+	margin-left: 30px;
+}
+a, a:visited {
+	color: #4b7fff;
+}
+a:hover, a:active, a:focus {
+	color: #ff6600;
+}
+hr {
+	height: 0;
+	margin-bottom: 1em;
+	background: 0;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #c8cbcf;
+}
+div.fulltext form, div.contact form, div.discussion form, .privateAccessForm form {
+	margin: 1em 0;
+	padding: 7px 5px 15px 5px;
+	overflow: hidden;
+	background: #ffffff;
+	border: 1px solid #c8cbcf;
+}
+div.fulltext fieldset, div.contact fieldset, div.discussion fieldset, .privateAccessForm fieldset {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+}
+div.fulltext label, div.contact label, div.discussion label, .privateAccessForm label {
+	clear: both;
+	display: block;
+	margin: 3px 0;
+	padding: 1px 10px 4px 10px;
+}
+div.colA div.contact label, div.colA div.discussion label, div.colB div.contact label, div.colB div.discussion label, .privateAccessForm label {
+	padding-top: 4px;
+}
+label:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+label.wrong {
+	background: #ffe5e5;
+}
+div.colA label span, div.colB label span {
+	float: left;
+}
+div.colA label span {
+	width: 174px;
+}
+div.colB label span {
+	width: 100px;
+}
+div.fulltext input, div.contact input, div.discussion input, select, textarea, .privateAccessForm input {
+	font-size: 100%;
+	border: 1px solid #999999;
+}
+label.wrong input, label.wrong textarea {
+	border-color: #ff6e6e;
+}
+div.fulltext input, div.contact input, div.discussion input, .privateAccessForm input {
+	padding-left: 2px;
+}
+select {
+}
+textarea {
+	display: block;
+	height: 100px;
+	overflow: auto;
+}
+div.fulltext input, div.contact input, div.discussion input, textarea, .privateAccessForm input {
+	margin: 2px 0 0 0;
+}
+div.colA div.contact input, div.colA div.discussion input, div.colA textarea, div.colB div.fulltext input, div.colB div.contact input, div.colB div.discussion input, div.colB textarea, .privateAccessForm input {
+	float: right;
+	margin: 0 0 0 5px;
+}
+div.colA div.contact input, div.colA div.discussion input, .privateAccessForm input {
+	width: 300px;
+}
+div.colA textarea {
+	width: 300px;
+}
+div.colB div.contact input, div.colB div.discussion input {
+	width: 196px;
+}
+div.colB textarea {
+	width: 197px;
+}
+div.colC div.fulltext input, div.colC div.contact input, div.colC div.discussion input {
+	width: 208px;
+}
+div.colC textarea {
+	width: 209px;
+}
+div.colD div.fulltext input, div.colD div.contact input, div.colD div.discussion input {
+	width: 133px;
+}
+div.colD textarea {
+	width: 134px;
+}
+button {
+	padding: 4px 10px;
+	font-weight: bold;
+	color: #4b7fff;
+	background: 0;
+	border: 0;
+	cursor: pointer;
+}
+div.button {
+	float: right;
+	margin: 3px 10px 0 0;
+	background: #ffe8d9 url("../img/button.png") no-repeat left top;
+}
+div.button:hover {
+	background-color: #ffd3b9;
+	background-image: url("../img/button-hover.png");
+}
+div.button div {
+	float: left;
+	background-image: url("../img/button.png");
+	background-repeat: no-repeat;
+}
+div.button:hover div {
+	background-image: url("../img/button-hover.png");
+}
+div.button div.rightTop {
+	background-position: right top;
+}
+div.button div.leftBottom {
+	background-position: left bottom;
+}
+div.button div.rightBottom {
+	background-position: right bottom;
+}
+.formError {
+	margin: 0 10px 10px 10px;
+}
+.cleaner {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+.hidden {
+	display: none;
+}
+.notFound {
+	text-align: left;
+}
+div#page {
+	position: relative;
+	width: 760px;
+	min-height: 100%;
+	margin: 0 auto;
+	background: #ffffff url("../img/page.png") no-repeat 15px top;
+	border-width: 0 5px;
+	border-style: solid;
+	border-color: #efefef;
+}
+div#wrapper {
+	width: 730px;
+	margin: 0 auto;
+	padding: 2.73em 0 4.31em 0;
+	text-align: left;
+}
+div#wrapper:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+div#header {
+	height: 2.65em;
+	margin: 0 auto 10px auto;
+	padding: 6px 0 0 0;
+	overflow: hidden;
+	background: url("../img/header.png") no-repeat left top;
+}
+div#header #logo {
+	float: left;
+	width: 170px;
+	padding-top: 2px;
+	overflow: hidden;
+	line-height: normal;
+	font-size: 170%;
+	color: #4d4e4f;
+}
+div#header #logo a, div#header #logo .image {
+	float: left;
+	text-decoration: none;
+	color: #4d4e4f;
+}
+div#header #logo img {
+	margin: 0;
+	border: 0;
+}
+div#header h3#slogan {
+	float: right;
+	width: 545px;
+	height: 100%;
+	text-align: right;
+	color: #535353;
+	background: #ebedef url("../img/slogan.png") no-repeat left bottom;
+}
+div#header h3#slogan span#rbcCompanySlogan {
+	display: block;
+	width: 515px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 15px 0 auto;
+	line-height: 2.8em;
+	text-align: right !important;
+}
+div#illustration {
+	position: relative;
+	width: 545px;
+	height: 170px;
+	overflow: hidden;
+}
+div#illustration img {
+	display: block;
+	margin: 0;
+	border: 0;
+}
+div#illustration span.masque {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 545px;
+	height: 170px;
+	background: url("../img/masque.png") no-repeat left top;
+}
+div#pageNavigator {
+	margin-top: 6px;
+	padding: 0 10px 4px 10px;
+	overflow: hidden;
+	font-size: 85%;
+	line-height: 1.75em;
+	border-bottom: 1px solid #e2e5e8;
+}
+div#pageNavigator a, div#pageNavigator a:visited {
+	text-decoration: none;
+	color: #535353;
+}
+div#pageNavigator a:hover, div#pageNavigator a:active, div#pageNavigator a:focus {
+	text-decoration: underline;
+	color: #ff6600;
+}
+div#pageNavigator span {
+	margin: 0 1px;
+	color: #4b80ff;
+}
+div#pageNavigator span#navCurrentPage {
+	margin: 0;
+	color: #878787;
+}
+div#menu {
+	border-bottom: 2px solid #e2e5e8;
+}
+div#menu div.content {
+	margin: 0;
+	background: #ebedef;
+}
+div#menu h2 {
+	margin: 0 0 5px 0;
+	padding-top: 10px;
+	font-size: 110%;
+	line-height: normal;
+	text-transform: uppercase;
+	background: #b4b6b9 url("../img/menu.png") no-repeat 0 top;
+}
+div#menu h2 span {
+	display: block;
+	padding: 0 10px 16px 26px;
+	color: #333333;
+	background: url("../img/menu.png") no-repeat -170px bottom;
+}
+div#menu ul {
+	margin: 0;
+}
+div#menu ul li {
+	margin: 0;
+	padding: 0;
+	background: #ebedef;
+}
+div#menu ul li.selected {
+	font-weight: bold;
+	background: #b0b3b5;
+}
+div#menu ul li a, div#menu ul li a:visited {
+	display: block;
+	padding: 0 10px 0 26px;
+	text-decoration: none;
+	color: #535353;
+	border-bottom: 1px solid #ffffff;
+	background: url("../img/menu.png") no-repeat -340px top;
+	cursor: pointer;
+}
+div#menu ul li a:hover, div#menu ul li a:active, div#menu ul li a:focus {
+	color: #ffffff;
+	background-color: #5788ff;
+	background-position: -510px top;
+}
+div#menu ul li.selected a, div#menu ul li.selected a:visited {
+	color: #ffffff;
+	background-position: -680px top;
+}
+div#menu ul li.selected a:hover, div#menu ul li.selected a:active, div#menu ul li.selected a:focus {
+	background-position: -850px top;
+}
+div#menu ul li a span {
+	display: block;
+	width: 100%;
+	padding: 4px 0 4px 0;
+	overflow: hidden;
+}
+div#menu li.activeSelected a span {
+	font-weight: bold;
+	color: #4b7fff;
+}
+div#menu li.activeSelected a:hover span, div#menu li.activeSelected a:focus span, div#menu li.activeSelected a:active span {
+	color: #ffffff;
+}
+div#menu ul li.selected ul {
+	font-weight: normal;
+	background: #c9cccf;
+}
+div#menu ul li.selected li {
+	background: none;
+}
+div#menu ul li.selected li a, div#menu ul li.selected li a:visited {
+	padding-left: 35px;
+	font-size: 100%;
+	color: #535353;
+	background-image: none;
+}
+div#menu ul li.selected li a:hover, div#menu ul li.selected li a:active, div#menu ul li.selected li a:focus {
+	color: #ffffff;
+}
+div#menu ul li.activeSelected li a span {
+	font-weight: normal;
+	color: #535353;
+}
+div#menu ul li.activeSelected li a:hover span, div#menu ul li.activeSelected li a:focus span, div#menu ul li.activeSelected li a:active span {
+	color: #ffffff;
+}
+div#menu ul li.selected li.selected li a {
+	padding-left: 44px;
+}
+div#container {
+	width: 545px;
+	float: right;
+}
+div#main {
+	clear: both;
+	width: 545px;
+}
+div#content {
+	width: 100%;
+	margin-top: 10px;
+}
+div#sidebar {
+	float: left;
+	width: 170px;
+}
+div.colA, div.colB, div.colC, div.colD {
+	overflow: hidden;
+}
+div.colA {
+	clear: both;
+	width: 545px;
+}
+div.colB {
+	width: 360px;
+}
+div.colC {
+	width: 265px;
+}
+div.colD {
+	width: 170px;
+	line-height: 1.38;
+	font-size: 85%;
+}
+div.floatLeft {
+	float: left;
+}
+div.floatRight {
+	float: right;
+}
+#topBar
+{
+	position: absolute;
+	right: 16px;
+	top: 0;
+	width: 560px;
+	height: 3.1em;
+	margin: 0;
+	overflow: hidden;
+	line-height: 3.0em;
+	text-align: right;
+	font-size: 85%;
+}
+	#topBar ul#quick {
+		float: right;
+	}
+	#topBar ul#quick li {
+		/*display: inline;
+		margin-left: 27px;*/
+		float: left;
+		padding: 2px 0;
+		background: 0;
+	}
+	#topBar ul#quick li.homepage a {
+	background-image: url("../img/homepage.png");
+	}
+	#topBar ul#quick li.sitemap a {
+		background-image: url("../img/sitemap.png");
+	}
+	#topBar ul#quick li.rss a {
+		background-image: url("../img/rss.png");
+	}
+	#topBar ul#quick li.print a {
+		background-image: url("../img/print.png");
+	}
+	#topBar ul#quick li a, ul#quick li a:visited {
+		padding-left: 17px;
+		text-decoration: none;
+		color: #535353;
+		background-repeat: no-repeat;
+		background-position: left 40%;
+	}
+	#topBar ul#quick li a:hover, ul#quick li a:active, ul#quick li a:focus {
+		text-decoration: underline;
+		color: #ff6600;
+	}
+
+div#search {
+	border: 0;
+}
+div#search h2 {
+}
+div#search form {
+	margin: 0;
+	padding: 0;
+	background: 0;
+	border: 0;
+}
+div#search form fieldset {
+	margin: 0;
+	padding: 0 0 0 4px;
+	border: 1px solid #999999;
+}
+div#search form fieldset:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+div#search input {
+	width: 121px;
+	vertical-align: middle;
+	margin: 3px 0;
+	padding-left: 0;
+	font-size: 100%;
+	color: #535353;
+	border: 0;
+}
+div#search input.submit {
+	width: 16px;
+	height: 16px;
+}
+div#footer {
+	position: absolute;
+	left: 15px;
+	bottom: 14px;
+	width: 700px;
+	height: 3.03em;
+	padding: 0 15px;
+	overflow: hidden;
+	line-height: 3em;
+	text-align: left;
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #e2e5e8;
+}
+div#footer p {
+	float: left;
+	width: 60%;
+	margin: 0;
+}
+div#footer p#rubicus {
+	float: right;
+	width: 38%;
+	text-align: right;
+}
+div.box {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+div.box div.content {
+	margin: 0 10px 10px 10px;
+}
+div.colD div.box {
+	border-bottom: 2px solid #e2e5e8;
+}
+div.colD div.box h2 {
+	margin: 0 -10px 7px -10px;
+	padding-top: 7px;
+	font-size: 128%;
+	background: #b4b6b9 url("../img/sidebar-heading.png") no-repeat 0 top;
+}
+div.colD div.box h2 span {
+	display: block;
+	padding: 0 10px 14px 10px;
+	text-transform: uppercase;
+	color: #333333;
+	background: url("../img/sidebar-heading.png") no-repeat -170px bottom;
+}
+div.colD div.box div.wsw h1, div.colD div.box div.wsw h2 {
+	margin: 0 0 8px 0;
+	padding: 0;
+	font-weight: bold;
+	background: 0;
+}
+div.colD div.wysiwyg div.wsw h1, div.colD div.wysiwyg div.wsw h2 {
+	height: 1.80em;
+	line-height: 2em;
+	margin: 0 -10px;
+	padding: 2px 10px 14px 10px;
+	overflow: hidden;
+	font-size: 128%;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #333333;
+	background: url("../img/sidebar-heading.png") no-repeat -680px top;
+}
+div.item {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+div.item .title {
+	margin: 0;
+	overflow: hidden;
+	font-size: 110%;
+	font-weight: bold;
+	color: #4b7fff;
+}
+div.pagination {
+	margin-top: 15px;
+	text-align: left;
+	font-size: 95%;
+	border-bottom: 1px solid #c8cbcf;
+}
+div.colD div.pagination {
+	font-size: 100%;
+}
+div.pagination p.info {
+	margin: 0;
+	padding: 5px 9px 3px 9px;
+	background: #ffffff;
+}
+div.pagination div.paging {
+	padding: 0 9px 2px 9px;
+	line-height: 1.75em;
+	background: #ffffff;
+}
+div.pagination div.paging:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+div.pagination span.selected {
+	float: left;
+	margin: 0 4px;
+	font-weight: bold;
+}
+div.pagination a, div.pagination a:visited {
+	float: left;
+	margin: 0 4px;
+	text-decoration: none;
+}
+div.pagination a:hover, div.pagination a:active, div.pagination a:focus {
+	text-decoration: underline;
+}
+div.pagination a.leftEnd, div.pagination a.left, div.pagination a.right, div.pagination a.rightEnd {
+	width: 10px;
+	height: 1.75em;
+	margin: 0;
+	text-decoration: none;
+	background-image: url("../img/paging.png");
+	background-repeat: no-repeat;
+}
+div.pagination a.left {
+	margin: 0 7px 0 3px;
+}
+div.pagination a.right {
+	margin: 0 3px 0 7px;
+}
+div.pagination a.leftEnd, div.pagination a.leftEnd:visited {
+	background-position: 0 55%;
+}
+div.pagination a:hover.leftEnd, div.pagination a:active.leftEnd, div.pagination a:focus.leftEnd {
+	background-position: -10px 55%;
+}
+div.pagination a.left, div.pagination a.left:visited {
+	background-position: -20px 55%;
+}
+div.pagination a:hover.left, div.pagination a:active.left, div.pagination a:focus.left {
+	background-position: -30px 55%;
+}
+div.pagination a.right, div.pagination a.right:visited {
+	background-position: -40px 55%;
+}
+div.pagination a:hover.right, div.pagination a:active.right, div.pagination a:focus.right {
+	background-position: -50px 55%;
+}
+div.pagination a.rightEnd, div.pagination a.rightEnd:visited {
+	background-position: -60px 55%;
+}
+div.pagination a:hover.rightEnd, div.pagination a:active.rightEnd, div.pagination a:focus.rightEnd {
+	background-position: -70px 55%;
+}
+div.pagination a.leftEnd span, div.pagination a.left span, div.pagination a.right span, div.pagination a.rightEnd span, div.pagination span.separator span {
+	display: none;
+}
+a.back, a.back:visited {
+	padding-left: 17px;
+	background: url("../img/back.png") no-repeat left 60%;
+}
+a.archive, a.archive:visited, a.newPost, a.newPost:visited, a.reply, a.reply:visited {
+	padding-right: 17px;
+	background: url("../img/more.png") no-repeat right 60%;
+}
+div.rbcBookmarks {
+	margin: 15px 0;
+	text-align: left;
+}
+div.rbcTags {
+	margin: 15px 0;
+	padding: 5px 0 7px 0;
+	text-align: left;
+	border-top: 1px solid #c8cbcf;
+	border-bottom: 1px solid #c8cbcf;
+}
+div.rbcTags h4 {
+	display: inline;
+	margin: 0 5px 0 0;
+	font-size: 100%;
+	color: #535353;
+}
+div.rbcTags p.tags {
+	display: inline;
+}
+div.tagCloud ol.tags {
+	text-align: center;
+}
+div.tagCloud ol.tags li {
+	display: inline;
+	margin: 0 0.5em;
+	list-style: none;
+}
+div.tagSearch {
+}
+div.tagSearch a.uri, div.tagSearch a:visited.uri {
+	font-size: 85%;
+	color: #808080;
+}
+div.tagSearch a:hover.uri, div.tagSearch a:active.uri, div.tagSearch a:focus.uri {
+	color: #ffaa00;
+}
+div.rss {
+}
+div.rss a.uri, div.rss a:visited.uri {
+	font-size: 85%;
+	color: #808080;
+}
+div.rss a:hover.uri, div.rss a:active.uri, div.rss a:focus.uri {
+	color: #ff6600;
+}
+div.fulltext form {
+	padding: 15px;
+	background: #eeeff1;
+}
+div.fulltext label {
+	margin: 0;
+	padding: 0;
+}
+div.colA div.fulltext label {
+	clear: none;
+	float: left;
+	margin-right: 20px;
+	line-height: 1.87em;
+}
+div.colA div.fulltext label span {
+	float: none;
+}
+div.colA div.fulltext input, div.colA div.fulltext select {
+	float: none;
+	width: 78px;
+	margin: 0 0 0 5px;
+}
+div.colA div.fulltext input {
+	width: 93px;
+}
+div.colB div.fulltext input, div.colB div.fulltext select {
+	float: right;
+	width: 172px;
+	margin-bottom: 11px;
+}
+div.colB div.fulltext input {
+	width: 168px;
+}
+div.colC div.fulltext input, div.colC div.fulltext select {
+	display: block;
+	margin: 2px 0 11px 0;
+}
+div.colC div.fulltext select {
+	width: 212px;
+}
+div.fulltext div.button {
+	margin: 0;
+	background-image: url("../img/button-fulltext.png");
+}
+div.fulltext div.button:hover {
+	background-image: url("../img/button-fulltext-hover.png");
+}
+div.fulltext div.button div {
+	background-image: url("../img/button-fulltext.png");
+}
+div.fulltext div.button:hover div {
+	background-image: url("../img/button-fulltext-hover.png");
+}
+div.colB div.fulltext div.button {
+	clear: both;
+}
+div.fulltext div.item {
+	margin: 10px;
+}
+div.fulltext a.uri, div.fulltext a:visited.uri {
+	font-size: 85%;
+	color: #808080;
+}
+div.fulltext a:hover.uri, div.fulltext a:active.uri, div.fulltext a:focus.uri {
+	color: #ff6600;
+}
+div.fulltext p.size {
+	margin: 0;
+	font-size: 85%;
+	font-style: italic;
+}
+div.contact {
+}
+div.colD div.contact div.content {
+	margin: 0 0 1px 0;
+	padding: 0 10px 10px 10px;
+	color: #535353;
+	background: #ebedef;
+}
+div.colD div.contact div.content h2 {
+	background: #b4b6b9 url("../img/sidebar-heading.png") no-repeat -340px top;
+}
+div.colD div.contact div.content h2 span {
+	background: url("../img/sidebar-heading.png") no-repeat -510px bottom;
+}
+div.contact address {
+	overflow: hidden;
+	font-style: normal;
+}
+div.contact address span {
+	display: block;
+}
+div.contact address span.address {
+	margin-bottom: 1em;
+}
+div.sitemap {
+}
+div.sitemap ul {
+	overflow: hidden;
+}
+div.sitemap li {
+	margin: 7px 0 0 0;
+	padding-left: 16px;
+	font-weight: bold;
+	background: url("../img/more-sitemap.png") no-repeat left 5px;
+}
+div.sitemap li a, div.sitemap li a:visited {
+	font-size: 95%;
+	color: #4b7fff;
+}
+div.sitemap li a:hover, div.sitemap li a:active, div.sitemap li a:focus {
+	color: #ff6600;
+}
+div.sitemap li li {
+	margin-left: 15px;
+	font-weight: normal;
+}
+div.wsw {
+}
+div.wsw img {
+	margin: 0.5em;
+	border: 1px solid #e2e5e8;
+}
+div.wsw a img, div.wsw a:visited img {
+	border-color: #e2e5e8;
+}
+div.wsw a:hover img, div.wsw a:focus img, div.wsw a:active img {
+	border-color: #ff6600;
+}
+div.articles {
+}
+div.articles ins {
+	text-decoration: none;
+	font-size: 85%;
+	color: #666666;
+}
+div.articles .detail .wsw {
+	margin-top: 10px;
+}
+div.faq {
+}
+div.faq .title {
+	position: relative;
+	margin-bottom: 3px;
+	padding-left: 20px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+div.faq .title span {
+	position: absolute;
+	top: 4px;
+	left: 0;
+	display: block;
+	width: 13px;
+	height: 13px;
+}
+div.faq .viewAnswer span {
+	background: url("../img/faq.png") no-repeat left 0;
+}
+div.faq .hideAnswer span {
+	background: url("../img/faq.png") no-repeat left -13px;
+}
+div.colD div.faq .title span {
+	top: 3px;
+}
+div.faq div.wsw {
+	margin-left: 20px;
+}
+div.photogallery {
+	text-align: center;
+}
+div.photogallery div.list h2, div.photogallery div.detail h1 {
+	text-align: left;
+}
+.photo {
+	padding: 2px;
+	overflow: hidden;
+	font-size: 85%;
+	border: 1px solid #e2e5e8;
+}
+div.colD div.photogallery .photo {
+	font-size: 100%;
+}
+div.photogallery .photo span.image {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+div.photogallery .photo span.image img {
+	margin: 0;
+	border: 0;
+}
+div.colA div.photogallery a.photo span.image img, div.colB div.photogallery div.small a.photo span.image img, div.photogallery div.detail div.photo span.image img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+a.photo, a:visited.photo {
+	float: left;
+	text-decoration: none;
+	color: #666666;
+	cursor: pointer;
+}
+div.photogallery a:hover.photo, div.photogallery a:active.photodiv.photogallery a:focus.photo {
+	color: #ff6600;
+	border-color: #ff6600;
+}
+div.photogallery div.large a.photo {
+	width: 200px;
+}
+div.photogallery div.small a.photo {
+	width: 118px;
+}
+div.colD div.photogallery div.large a.photo {
+	width: 144px;
+}
+div.colA div.photogallery div.large a.photo {
+	margin: 7px 28px;
+}
+div.colB div.photogallery div.large a.photo {
+	margin: 7px 67px;
+}
+div.colC div.photogallery div.large a.photo {
+	margin: 7px 20px;
+}
+div.colD div.photogallery div.large a.photo {
+	margin: 7px 0px;
+}
+div.colA div.photogallery div.small a.photo {
+	margin: 7px 25px;
+}
+div.colB div.photogallery div.small a.photo {
+	margin: 7px 21px;
+}
+div.colC div.photogallery div.small a.photo {
+	margin: 7px 61px;
+}
+div.colD div.photogallery div.small a.photo {
+	margin: 7px 13px;
+}
+div.photogallery div.large a.photo span.image {
+	width: 200px;
+}
+div.colA div.photogallery div.large a.photo span.image {
+	height: 200px;
+}
+div.photogallery div.small a.photo span.image {
+	width: 118px;
+}
+div.colA div.photogallery div.small a.photo span.image, div.colB div.photogallery div.small a.photo span.image {
+	height: 118px;
+}
+div.colD div.photogallery div.large a.photo span.image {
+	width: 144px;
+	overflow: hidden;
+}
+div.photogallery a.photo span.name {
+	display: block;
+	margin: 10px 0;
+	overflow: hidden;
+}
+div.photogallery p.cleaner {
+	clear: both;
+	display: block;
+	height: 0;
+	margin: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.photogallery p.hidden span {
+	display: none;
+}
+div.photogallery div.photo {
+	width: 240px;
+	margin: 0 auto;
+	text-align: left;
+}
+div.colA div.photogallery div.detail div.photo {
+	width: 490px;
+}
+div.photogallery div.detail div.photo span.image {
+	width: 240px;
+	height: 240px;
+}
+div.colA div.photogallery div.detail div.photo span.image {
+	width: 490px;
+	height: 490px;
+}
+div.photogallery span.pagination {
+	float: right;
+	margin-top: 5px;
+}
+div.photogallery span.pagination a, div.photogallery span.pagination span {
+	position: relative;
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+}
+div.photogallery span.pagination span.prev, div.photogallery span.pagination span.next {
+	width: 34px;
+}
+div.photogallery span.pagination span.prev {
+	margin-right: 10px;
+}
+div.photogallery span.pagination a, div.photogallery span.pagination a:visited {
+	padding: 4px 6px 4px 17px;
+	font-weight: bold;
+	color: #1449c8;
+	background: #eff3ff;
+	border: 1px solid #d7e2ff;
+}
+div.photogallery span.pagination a:hover, div.photogallery span.pagination a:active, div.photogallery span.pagination a:focus {
+	color: #843500;
+	background: #ffa060;
+	border-color: #ffa060;
+}
+div.photogallery span.pagination span.prev a {
+	padding: 4px 17px 4px 6px;
+}
+div.photogallery span.pagination span a span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+div.photogallery span.pagination span.prev a span {
+	background: url("../img/prev.png") no-repeat -233px center;
+}
+div.photogallery span.pagination span.prev a:hover span {
+	background-position: -733px center;
+}
+div.photogallery span.pagination span.next a span {
+	background: url("../img/next.png") no-repeat -234px center;
+}
+div.photogallery span.pagination span.next a:hover span {
+	background-position: -734px center;
+}
+div.photogallery span.pagination a#slideshowControl, div.photogallery span.pagination a:visited#slideshowControl {
+	display: none;
+	margin-right: 10px;
+	padding: 4px 30px 4px 12px;
+	font-weight: normal;
+	color: #5788ff;
+	background: #ffffff url("../img/slideshow-start.png") no-repeat right center;
+	border: 1px solid #5788ff;
+}
+div#page div.photogallery span.pagination a.enableControl {
+	display: block;
+}
+div#page div.photogallery span.pagination a.hoverButton {
+	color: #843500;
+	background-color: #ffa060;
+	background-image: url("../img/slideshow-start-hover.png");
+	border-color: #ffa060;
+}
+div#page div.photogallery span.pagination a.slideshowRunning {
+	background-image: url("../img/slideshow-pause.png") !important;
+}
+div#page div.photogallery span.pagination a.slideshowRunningHover {
+	background-image: url("../img/slideshow-pause-hover.png") !important;
+}
+div.photogallery a.back, div.photogallery a.back:visited {
+	float: left;
+	margin-top: 10px;
+	background-image: url("../img/back-photo.png");
+}
+div.products {
+}
+div.products div.product {
+	padding: 5px;
+	background: #ffffff;
+	border-bottom: 1px solid #e2e5e8;
+}
+div.colA div.products div.list div.withImage .title, div.colA div.products div.list div.withImage .wsw {
+	float: right;
+	width: 385px;
+}
+div.colB div.products div.list div.withImage .title, div.colB div.products div.list div.withImage .wsw {
+	float: right;
+	width: 200px;
+}
+div.products span.image {
+	display: block;
+	margin: 5px 0;
+	text-align: center;
+}
+div.colA div.products div.list div.product span.image, div.colB div.products div.list div.product span.image {
+	float: left;
+	width: 118px;
+	margin: 0;
+}
+div.products span.image a img, div.products span.image a:visited img {
+	margin: 0;
+	border: 1px solid #e2e5e8;
+}
+div.products span.image a:hover img, div.products span.image a:focus img, div.products span.image a:active img {
+	border-color: #ff6600;
+}
+div.poll {
+}
+div.poll h3 {
+	margin-bottom: 18px;
+	overflow: hidden;
+	font-size: 100%;
+	color: #535353;
+}
+div.colD div.poll h3 {
+	margin-bottom: 12px;
+}
+div.poll li {
+	clear: both;
+	margin: 0 0 18px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: right;
+	font-size: 85%;
+	background: 0;
+}
+div.colD div.poll li {
+	margin-bottom: 12px;
+	font-size: 100%;
+}
+div.poll span.answerText {
+	float: left;
+	text-align: left;
+	width: 75%;
+	margin: 0 5px 3px 0;
+	overflow: hidden;
+}
+div.poll span.answerText {
+	color: #4b7fff;
+}
+div.poll span.answerVote {
+	white-space: nowrap;
+	color: #999999;
+}
+div.poll .answerBar {
+	clear: both;
+	display: block;
+	height: 6px;
+	padding: 1px;
+	text-align: left;
+	background: #ffffff;
+	border: 1px solid #e2e5e8;
+}
+div.poll .answerBar img {
+	display: block;
+	margin: 0;
+	border: 0;
+}
+div.poll p.answerCount {
+	margin: 0;
+	font-size: 85%;
+}
+div.colD div.poll p.answerCount {
+	font-size: 100%;
+}
+div.poll p.answerCount span {
+	font-weight: bold;
+}
+div.colD div.discussion div.content {
+	margin: 0 0 10px 0;
+}
+div.colD div.discussion div.content h2 {
+	margin: 0 0 7px 0;
+}
+div.discussion div.post {
+	margin: 0 0 10px 20px;
+}
+div.colA div.discussion div.post {
+	margin-left: 140px;
+}
+div.colB div.discussion div.post {
+	margin-left: 80px;
+}
+div.colC div.discussion div.post {
+	margin-left: 60px;
+}
+div.discussion div.level-1 {
+	margin-left: 0 !important;
+}
+div.colA div.discussion div.level-2, div.colB div.discussion div.level-2, div.colC div.discussion div.level-2 {
+	margin-left: 20px;
+}
+div.colA div.discussion div.level-3, div.colB div.discussion div.level-3, div.colC div.discussion div.level-3 {
+	margin-left: 40px;
+}
+div.colA div.discussion div.level-4, div.colB div.discussion div.level-4 {
+	margin-left: 60px;
+}
+div.colA div.discussion div.level-5 {
+	margin-left: 80px;
+}
+div.colA div.discussion div.level-6 {
+	margin-left: 100px;
+}
+div.colA div.discussion div.level-7 {
+	margin-left: 120px;
+}
+div.discussion div.post div.head {
+	padding: 6px 10px;
+	font-size: 85%;
+	text-align: right;
+	background: #eeeff1;
+	border-bottom: 1px solid #e2e5e8;
+}
+div.colD div.discussion div.post div.head {
+	font-size: 100%;
+}
+div.discussion div.post div.head:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+div.discussion p {
+	margin-bottom: 1px;
+	overflow: hidden;
+	text-align: left;
+}
+div.discussion div.head p {
+	font-weight: bold;
+}
+div.colA div.discussion div.head p, div.colB div.discussion div.head p {
+	margin-right: 25%;
+}
+div.discussion div.head p * {
+	margin-left: 3px;
+	font-weight: normal;
+	text-decoration: none;
+}
+div.discussion div.head h3 {
+	overflow: hidden;
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+	color: #535353;
+}
+div.colA div.discussion div.head h3, div.colB div.discussion div.head h3 {
+	float: left;
+	width: 75%;
+	margin: 0;
+}
+div.discussion div.head h3 em {
+	margin-left: 3px;
+	font-weight: normal;
+	font-style: normal;
+	color: #4b7fff;
+}
+div.discussion div.text {
+	clear: both;
+	padding: 4px 10px;
+}
+div.discussion div.pagination {
+	margin-bottom: 10px;
+}
+div.rbcWidgetArea {
+	margin: 10px 10px 20px 10px;
+}
+table#waitingTable {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+}
+table#waitingTable, table#waitingTable td, table#waitingTable tr {
+	background-color: transparent;
+	text-align: center;
+	border: 0;
+}
+table#waitingTable td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+#languageSelectBody {
+	float: right;
+	padding-left: 15px;
+}
+#languageSelect ul {
+	display: none;
+}
+#languageSelect #languageFlags,
+#languageSelect select {
+	margin-top: 8px;
+}
+#languageSelect #languageFlags a  { 
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 16px;
+	height: 16px;
+	margin-left: 7px;
+	float: left;
+	display: block;
+}  
+.privateAccessForm label  
+{
+	display: block;
+	width: 90px;
+}
+.privateAccessForm button
+{
+	border: 1px solid #000000;
+}
+
+.privateAccessForm .error
+{
+	color: #000000;
+}
+
+#contactBlock
+{
+	position: static;
+}
+
+.rbcAdPosition
+{
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.rbcAdPosition span
+{
+	left: 0;
+	position: absolute;
+}
+.formSuffixLinks {
+	padding-top: 15px;
+}
+
+form .rbcFormDescription {
+	padding: 5px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+/* -- forms ---------------------------------------- */
+
+.discussion label.groupLabel {
+	margin-bottom: 5px !important;
+}
+
+.discussion .formTextarea {
+	margin-bottom: 5px;
+}
+
+.discussion .formTextarea label {
+	display: block !important;
+	position: relative;
+}
+
+.discussion .choicesGroup {
+	position: relative;
+	margin: -4px 0 10px;
+	text-align: left;
+}
+
+.discussion .choicesGroup label {
+	display: inline !important;
+	float: none !important;
+	width: auto !important;
+	clear: right;
+	font-weight: normal !important;
+	padding: 0 !important;
+}
+
+.discussion .choicesGroup input {
+	position: relative !important;
+	display: inline-block;
+	top: 2px;
+	float: none !important;
+	width: auto !important;
+	height: auto !important;
+	background: transparent none !important;
+	border: none !important;
+	margin: 5px 0 !important;
+}
+
+.discussion .choicesGroup span {
+	float: none !important;
+	width: auto !important;
+	height: auto !important;
+}
+
+.discussion .choicesGroup .noDis {
+	display: block;
+}
+
+.discussion select {
+	width: 220px;
+	margin-bottom: .5em;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.fileInput {
+	float: right;
+	position: relative;
+	width: 220px;
+	margin-bottom: .5em;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.fileInputBase {
+	height: 0px;
+	width: auto;
+	overflow: hidden;
+}
+
+.ie .fileInputBase
+{
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+
+.ie .fileInputBase input
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: -5px;
+	width: 150px !important;
+	height: 25px !important;
+	font-size: 20px;
+	z-index: 5;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.fileInputBase
+	{
+		height: auto;
+		width: auto;
+		overflow: hidden;
+	}
+
+	.fileInputBase input
+	{
+		position: absolute;
+		display: block;
+		top: 0;
+		left: -5px;
+		width: 150px !important;
+		height: 25px !important;
+		font-size: 20px;
+		z-index: 5;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		cursor: pointer;
+	}
+}
+
+.fileInputCover {
+	position: relative;
+	width: 220px;
+	overflow: hidden;
+}
+
+.fileInputText {
+	float: none !important;
+	position: relative;
+	top: -6px;
+	left: 0;
+	padding: 0 0 0 7px;
+	white-space: nowrap;
+	cursor: default;
+}
+
+.fileInputSelect {
+	position: relative;
+	display: inline-block;
+	background: #ffe8d9 url("../img/button.png") no-repeat left top;
+	color: #4b7fff;
+	padding: 0;
+	cursor: pointer;
+	float: none !important;
+	width: auto !important;
+}
+
+.fileInputSelect u {
+	display: block;
+	text-decoration: none;
+	background: url("../img/button.png") no-repeat;
+	float: left;
+}
+
+.fileInputSelect .rt {background-position: right top;}
+.fileInputSelect .lb {background-position: left bottom;}
+.fileInputSelect .rb {
+	background-position: right bottom;
+	padding: 3px 12px;
+}
+
+.fileInputSelect:hover {
+	background-color: #ffd3b9;
+}
+	
+.fileInputSelect:hover,
+.fileInputSelect:hover u {
+	background-image: url("../img/button-hover.png");
+}
+
+.colA div.discussion select, .colA div.discussion .fileInput, .colA div.discussion .choicesGroup, 
+.colB div.discussion select, .colB div.discussion .fileInput, .colB div.discussion .choicesGroup {
+	float: right;
+	
+}
+
+.colA div.discussion select, .colA div.discussion .fileInput, .colA div.discussion .fileInputCover, .colA div.discussion .choicesGroup {
+	width: 305px;
+}
+
+.colB div.discussion select, .colB div.discussion .fileInput, .colB div.discussion .fileInputCover, .colB div.discussion .choicesGroup {
+	width: 200px;
+}
+
+.colC div.discussion select, .colC div.discussion .fileInput, .colC div.discussion .fileInputCover, .colC div.discussion .choicesGroup {
+	width: 213px;
+}
+
+.colD div.discussion select, .colD div.discussion .fileInput, .colD div.discussion .fileInputCover, .colD div.discussion .choicesGroup {
+	width: 137px;
+}
+
+.error {
+	margin: 0 0 10px 15px;
+}
+
+.choicesGroupArea {
+	clear: both;
+	display: block;
+	margin: 3px 0;
+	padding: 1px 10px 4px 10px;
+}
+
+.colA .choicesGroupArea .groupLabel, .colB .choicesGroupArea .groupLabel {
+	display: inline !important;
+	padding: 0 !important;
+	float: left !important;
+}
+
+.colC .choicesGroupArea .groupLabel, .colD .choicesGroupArea .groupLabel {padding: 0;}
+
+/* -- end: forms ----------------------------------- */
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+   <channel>
+    <atom:link href="http://podologia-labarca.webnode.com.br/rss/calendario-de-eventos.xml" rel="self" type="application/rss+xml" />
+      <title><![CDATA[Calendário de eventos - podologialabarca.com.br]]></title>
+      <link>http://podologia-labarca.webnode.com.br</link>
+      <language>pt</language>
+      <pubDate>Fri, 23 Apr 2010 20:56:00 +0200</pubDate>
+      <lastBuildDate>Fri, 23 Apr 2010 20:56:00 +0200</lastBuildDate>
+      <category><![CDATA[Calendário de eventos]]></category>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>Rubicus v2.0</generator>
+      <managingEditor><![CDATA[podologialabarca@gmail.com (podologialabarca@gmail.com)]]></managingEditor>
+      <webMaster><![CDATA[podologialabarca@gmail.com (podologialabarca@gmail.com)]]></webMaster>
+      <item>
+         <title><![CDATA[Novo evento]]></title>
+         <link>http://www.podologialabarca.com.br/news/novo-evento/</link>
+         <description><![CDATA[&#160;]]></description>
+         <pubDate>Fri, 23 Apr 2010 20:56:00 +0200</pubDate>
+         <guid isPermaLink="true">http://www.podologialabarca.com.br/news/novo-evento/</guid>
+         <category>Calendário de eventos</category>
+      </item>
+   </channel>
+</rss>
